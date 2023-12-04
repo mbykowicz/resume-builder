@@ -19,7 +19,7 @@ module.exports = {
       colors: {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
-        ring: 'hsla(var(--ring))',
+        ring: 'hsl(var(--ring))',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         primary: {
@@ -49,6 +49,11 @@ module.exports = {
         card: {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))',
+        },
+        disabled: {
+          background: 'hsl(var(--disabled-background))',
+          foreground: 'hsl(var(--disabled-foreground))',
+          border: 'hsl(var(--disabled-border))',
         },
       },
       borderRadius: {
