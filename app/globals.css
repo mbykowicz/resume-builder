@@ -30,6 +30,7 @@
     --disabled-background: 240 6% 90%;
     --disabled-foreground: 240 5% 65%;
     --disabled-border: 240 5% 84%;
+    --placeholder: 240 5% 65%;
   }
 
   .dark {

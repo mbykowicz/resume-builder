@@ -18,7 +18,10 @@ module.exports = {
     extend: {
       colors: {
         border: 'hsl(var(--border))',
-        input: 'hsl(var(--input))',
+        input: {
+          DEFAULT: 'hsl(var(--input))',
+          active: 'hsl(var(--input-active))',
+        },
         ring: 'hsl(var(--ring))',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
@@ -55,6 +58,7 @@ module.exports = {
           foreground: 'hsl(var(--disabled-foreground))',
           border: 'hsl(var(--disabled-border))',
         },
+        placeholder: 'hsl(var(--placeholder))',
       },
       borderRadius: {
         lg: 'var(--radius)',
