@@ -20,9 +20,7 @@ const variants = cva(
 
 interface Props
   extends React.InputHTMLAttributes<HTMLInputElement>,
-    VariantProps<typeof variants> {
-  asChild?: boolean
-}
+    VariantProps<typeof variants> {}
 
 const Input = React.forwardRef<HTMLInputElement, Props>(
   ({ className, variant, ...props }, ref) => {
