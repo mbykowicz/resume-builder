@@ -3,7 +3,7 @@ import { cva, type VariantProps } from 'class-variance-authority'
 import { cn } from '@/lib/utils'
 import { CrossCircledIcon } from '@radix-ui/react-icons'
 
-const variants = cva('text-[11px] flex items-center gap-1 py-1', {
+const variants = cva('text-[11px] flex items-center gap-1', {
   variants: {
     variant: {
       default: 'text-muted-foreground',
